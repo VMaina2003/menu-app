@@ -8,8 +8,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "type": "module",
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VMaina2003/menu-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VMaina2003/menu-app/issues"
+  },
+  "homepage": "https://github.com/VMaina2003/menu-app#readme",
+  "devDependencies": {},
+  "description": ""
 }

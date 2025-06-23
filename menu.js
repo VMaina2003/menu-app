@@ -1,4 +1,5 @@
-let prompt = require('prompt-sync')({ sigint: true });
+import PromptSync from 'prompt-sync';
+const prompt = PromptSync();
 
 // Track user actions
 let actionCount = 0;
@@ -63,7 +64,7 @@ function convertCelsiusToFahrenheit() {
   const celsius = parseFloat(input);
   if (isNaN(celsius)) return console.log(" Invalid temperature.");
   const fahrenheit = celsius * 1.8 + 32;
-  console.log(`🌡️ ${celsius}°C = ${fahrenheit.toFixed(2)}°F`);
+  console.log(` ${celsius}°C = ${fahrenheit.toFixed(2)}°F`);
 }
 
 function countDown() {
