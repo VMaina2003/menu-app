@@ -1,8 +1,9 @@
 import PromptSync from 'prompt-sync';
+
 const prompt = PromptSync();
 
 // Track user actions
-let actionCount = 0;
+const actionCount = 0;
 
 function mainMenu() {
   console.log("\n=== Main Menu ===");
